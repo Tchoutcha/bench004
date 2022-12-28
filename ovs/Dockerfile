@@ -1,4 +1,5 @@
-FROM dpdk:v1-onbuild
+FROM sandjong/dpdk:v1
+
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
   autoconf automake libtool openssl libssl-dev python \
